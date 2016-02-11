@@ -124,3 +124,6 @@ tns(A):- name(A,[117]).
 
 vib(A):- name(A,[114]).
 vib(A):- name(A,[638]).
+
+sib(A):- name(A,[115]).
+sib(A):- name(A,[269]).
