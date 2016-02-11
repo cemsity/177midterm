@@ -10,10 +10,10 @@ onset([A]):-
 
 onset([A,B]):-
   phone(A),not(snt(A)),not(cnt(A)),not(pal(A)),not(cor(A)),
-  phone(B),snt(B),not(pal(B)).
+  phone(B),lat(B),not(pal(B)).
 
 onset([A,B]) :-
-  phone(A),not(snt(A)),not(cnt(A)),
+  phone(A),not(snt(A)),not(cnt(A)), not(pal(A)),
   phone(B),vib(B),not(tns(B)).
 
 onset([]).
@@ -23,7 +23,7 @@ rhyme(A) :-
   coda(C),
   append(B,C,A).
 
-nucleus(A) :-
+nucleus([A]) :-
   phone(A), not(cns(A)).
 
 coda([]).
@@ -36,5 +36,5 @@ coda([A,B]) :-
   phone(B),not(voi(B)),alv(B),sib(B).
 
 coda([A,B]) :-
-  phone(A),snt(A),alv(A),not(tns(A)),not(vel(A)),
+  phone(A),snt(A),alv(A),not(tns(A)),not(lat(A)),
   phone(B),not(voi(B)),alv(B),sib(B).

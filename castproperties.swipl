@@ -20,7 +20,7 @@ cns(A):- name(A,[626]).
 cns(A):- name(A,[638]).
 cns(A):- name(A,[654]).
 cns(A):- name(A,[952]).
-cns(A):- name(A,[331]).
+
 
 bck(A):- name(A,[097]).
 bck(A):- name(A,[111]).
@@ -115,6 +115,8 @@ snt(A):- name(A,[117]).
 snt(A):- name(A,[119]).
 snt(A):- name(A,[626]).
 snt(A):- name(A,[654]).
+snt(A):- name(A, [638]).
+snt(A):- name(A, [114]).
 
 tns(A):- name(A,[105]).
 tns(A):- name(A,[114]).

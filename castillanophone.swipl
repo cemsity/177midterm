@@ -40,9 +40,7 @@ phone(A):-
 %14 g
 phone(A):-
 	name(A,[103]).
-%15 ŋ
-phone(A):-
-	name(A,[331]).
+
 %16 f
 phone(A):-
 	name(A,[102]).

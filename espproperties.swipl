@@ -10,7 +10,7 @@ cns(A):- name(A,[100]).
 cns(A):- name(A,[110]).
 cns(A):- name(A,[107]).
 cns(A):- name(A,[103]).
-cns(A):- name(A,[331]).
+
 cns(A):- name(A,[102]).
 cns(A):- name(A,[118]).
 cns(A):- name(A,[952]).
@@ -30,7 +30,7 @@ cns(A):- name(A,[104]).
 
 snt(A):- name(A,[109]).
 snt(A):- name(A,[110]).
-snt(A):- name(A,[331]).
+
 snt(A):- name(A,[108]).
 snt(A):- name(A,[633]).
 snt(A):- name(A,[106]).
@@ -49,7 +49,7 @@ snt(A):- name(A,[652]).
 
 nas(A):- name(A,[109]).
 nas(A):- name(A,[110]).
-nas(A):- name(A,[331]).
+
 
 
 voi(A):- name(A,[098]).
@@ -57,7 +57,7 @@ voi(A):- name(A,[109]).
 voi(A):- name(A,[100]).
 voi(A):- name(A,[110]).
 voi(A):- name(A,[103]).
-voi(A):- name(A,[331]).
+
 voi(A):- name(A,[118]).
 voi(A):- name(A,[240]).
 voi(A):- name(A,[122]).
@@ -147,7 +147,7 @@ ant(A):- name(A,[633]).
 
 vel(A):- name(A,[107]).
 vel(A):- name(A,[103]).
-vel(A):- name(A,[331]).
+
 vel(A):- name(A,[119]).
 
 
