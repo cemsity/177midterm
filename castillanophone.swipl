@@ -1,0 +1,84 @@
+%castillano
+ :- ['fulldisplay.swipl'].
+
+%1 ɲ
+  phone(A):-
+ 	name(A, [626]).
+%2 x
+ phone(A):-
+ 	name(A, [120]).
+%3 ʎ
+phone(A):-
+ 	name(A, [654]).
+%4 ɾ
+phone(A):-
+ 	name(A, [638]).
+%5 r
+phone(A):-
+ 	name(A, [114]).
+%6 p
+phone(A):-
+	name(A,[112]).
+%7 b
+phone(A):-
+	name(A,[098]).
+%8 m
+phone(A):-
+	name(A,[109]).
+%9 t
+phone(A):-
+	name(A,[116]).
+%11 d
+phone(A):-
+	name(A,[100]).
+%12 n
+phone(A):-
+	name(A,[110]).
+%13 k
+phone(A):-
+	name(A,[107]).
+%14 g
+phone(A):-
+	name(A,[103]).
+%15 ŋ
+phone(A):-
+	name(A,[331]).
+%16 f
+phone(A):-
+	name(A,[102]).
+
+%18 θ
+phone(A):-
+	name(A,[952]).
+ %20 s
+phone(A):-
+	name(A,[115]).
+
+ %24 č
+phone(A):-
+	name(A,[269]).
+%26 l
+phone(A):-
+	name(A,[108]).
+%28 j
+phone(A):-
+	name(A,[106]).
+%29 w
+phone(A):-
+	name(A,[119]).
+
+%31 i
+phone(A):-
+	name(A,[105]).
+%32 e
+phone(A):-
+	name(A,[101]).
+%33 u
+phone(A):-
+	name(A,[117]).
+%34 o
+phone(A):-
+	name(A,[111]).
+%35 a
+phone(A):-
+	name(A,[097]).

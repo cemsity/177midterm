@@ -1,0 +1,40 @@
+:- ['castproperties.swipl'].
+
+syllable(A):-
+  onset(B),
+  rhyme(C),
+  append(B,C,A).
+
+onset([A]):-
+  phone(A),cns(A).
+
+onset([A,B]):-
+  phone(A),not(snt(A)),not(cnt(A)),not(pal(A)),not(cor(A)),
+  phone(B),snt(B),not(pal(B)).
+
+onset([A,B]) :-
+  phone(A),not(snt(A)),not(cnt(A)),
+  phone(B),vib(B),not(tns(B)).
+
+onset([]).
+
+rhyme(A) :-
+  nucleus(B),
+  coda(C),
+  append(B,C,A).
+
+nucleus(A) :-
+  phone(A), not(cns(A)).
+
+coda([]).
+
+coda([A]) :-
+  phone(A),cns(A).
+
+coda([A,B]) :-
+  phone(A),not(snt(A)),not(cnt(A)),not(pal(A)),not(cor(A)),
+  phone(B),not(voi(B)),alv(B),sib(B).
+
+coda([A,B]) :-
+  phone(A),snt(A),alv(A),not(tns(A)),not(vel(A)),
+  phone(B),not(voi(B)),alv(B),sib(B).

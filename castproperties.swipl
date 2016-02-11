@@ -1,0 +1,124 @@
+:- ['castillanophone.swipl'].
+
+cns(A):- name(A,[098]).
+cns(A):- name(A,[100]).
+cns(A):- name(A,[102]).
+cns(A):- name(A,[103]).
+cns(A):- name(A,[106]).
+cns(A):- name(A,[107]).
+cns(A):- name(A,[108]).
+cns(A):- name(A,[109]).
+cns(A):- name(A,[110]).
+cns(A):- name(A,[112]).
+cns(A):- name(A,[114]).
+cns(A):- name(A,[115]).
+cns(A):- name(A,[116]).
+cns(A):- name(A,[119]).
+cns(A):- name(A,[120]).
+cns(A):- name(A,[269]).
+cns(A):- name(A,[626]).
+cns(A):- name(A,[638]).
+cns(A):- name(A,[654]).
+cns(A):- name(A,[952]).
+cns(A):- name(A,[331]).
+
+bck(A):- name(A,[097]).
+bck(A):- name(A,[111]).
+bck(A):- name(A,[117]).
+
+hih(A):- name(A,[105]).
+hih(A):- name(A,[117]).
+
+low(A):- name(A,[097]).
+
+voi(A):- name(A,[097]).
+voi(A):- name(A,[098]).
+voi(A):- name(A,[100]).
+voi(A):- name(A,[101]).
+voi(A):- name(A,[103]).
+voi(A):- name(A,[105]).
+voi(A):- name(A,[106]).
+voi(A):- name(A,[108]).
+voi(A):- name(A,[109]).
+voi(A):- name(A,[110]).
+voi(A):- name(A,[111]).
+voi(A):- name(A,[114]).
+voi(A):- name(A,[117]).
+voi(A):- name(A,[119]).
+voi(A):- name(A,[626]).
+voi(A):- name(A,[638]).
+voi(A):- name(A,[654]).
+
+alv(A):- name(A,[110]).
+alv(A):- name(A,[108]).
+alv(A):- name(A,[114]).
+alv(A):- name(A,[115]).
+alv(A):- name(A,[638]).
+
+lab(A):- name(A,[098]).
+lab(A):- name(A,[102]).
+lab(A):- name(A,[109]).
+lab(A):- name(A,[112]).
+lab(A):- name(A,[119]).
+lat(A):- name(A,[108]).
+lat(A):- name(A,[654]).
+
+pal(A):- name(A,[106]).
+pal(A):- name(A,[114]).
+pal(A):- name(A,[269]).
+pal(A):- name(A,[626]).
+pal(A):- name(A,[638]).
+pal(A):- name(A,[654]).
+
+nas(A):- name(A,[109]).
+nas(A):- name(A,[110]).
+nas(A):- name(A,[626]).
+
+cnt(A):- name(A,[097]).
+cnt(A):- name(A,[101]).
+cnt(A):- name(A,[102]).
+cnt(A):- name(A,[105]).
+cnt(A):- name(A,[106]).
+cnt(A):- name(A,[108]).
+cnt(A):- name(A,[111]).
+cnt(A):- name(A,[114]).
+cnt(A):- name(A,[115]).
+cnt(A):- name(A,[117]).
+cnt(A):- name(A,[119]).
+cnt(A):- name(A,[120]).
+cnt(A):- name(A,[638]).
+cnt(A):- name(A,[654]).
+cnt(A):- name(A,[952]).
+
+cor(A):- name(A,[100]).
+cor(A):- name(A,[106]).
+cor(A):- name(A,[108]).
+cor(A):- name(A,[110]).
+cor(A):- name(A,[114]).
+cor(A):- name(A,[115]).
+cor(A):- name(A,[116]).
+cor(A):- name(A,[269]).
+cor(A):- name(A,[626]).
+cor(A):- name(A,[638]).
+cor(A):- name(A,[654]).
+cor(A):- name(A,[952]).
+
+snt(A):- name(A,[097]).
+snt(A):- name(A,[101]).
+snt(A):- name(A,[105]).
+snt(A):- name(A,[106]).
+snt(A):- name(A,[108]).
+snt(A):- name(A,[109]).
+snt(A):- name(A,[110]).
+snt(A):- name(A,[111]).
+snt(A):- name(A,[117]).
+snt(A):- name(A,[119]).
+snt(A):- name(A,[626]).
+snt(A):- name(A,[654]).
+
+tns(A):- name(A,[105]).
+tns(A):- name(A,[114]).
+tns(A):- name(A,[117]).
+
+vib(A):- name(A,[114]).
+vib(A):- name(A,[638]).
